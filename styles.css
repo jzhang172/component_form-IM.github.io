@@ -12,6 +12,26 @@ body {
 .form-container input{
     background: #f7fcff;
 }
+.modal-content{
+    padding: 2rem 0px;
+}
+.modal-text-info__1{
+    margin: 0px;
+    font-size: 1.8rem;
+   
+    margin-top: 1rem;
+}
+.btn-modal{
+    width: 80%;
+    margin-top: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.modal-text-info__2{
+    padding-top: .5rem;
+    font-size: .9rem;
+    width: 80%;
+}
 .title{
     height: 75px;
     font-family: 'Roboto';
@@ -76,12 +96,7 @@ body {
     border-top-right-radius: .375rem !important;
     border-bottom-right-radius: .375rem !important;
 }
-
-.btn-form-submit {
-    padding: .375rem 1.25rem;
-    font-size: .8rem;
-    border-radius: 3px !important;
-    /* text-transform: uppercase; */
+.form-btn-style{
     font-weight: 500;
     font-family: Open Sans;
     --bs-btn-color: #fff;
@@ -98,6 +113,13 @@ body {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #0d6efd;
+}
+.btn-form-submit {
+    padding: .375rem 1.25rem;
+    font-size: .8rem;
+    border-radius: 3px !important;
+    /* text-transform: uppercase; */
+
   
 }
 
@@ -120,16 +142,19 @@ body {
 }
 
 .fa-check {
-    transform: scale(1.5);
-    color: #047e04;
+    background: #047e04;
+    color: white;
+
     border-radius: 50%;
     border: 2px solid #047e04;
-    padding: 5px;
+    padding: 15px;
+    /* display: inline-block; */
+    position: relative;
 }
 
 .form-modal-text {
     padding: 2rem 0px;
-    height: 50px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,15 +182,21 @@ body {
 }
 .modal-body{
     padding: 2rem 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .submit-checkmark {
-    height: 40px;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0px;
+    /* padding: 2rem 0px; */
+    /* height: 100%; */
+    position: relative;
+    height: 100px;
 }
 
 button {

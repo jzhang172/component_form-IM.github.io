@@ -83,7 +83,7 @@
      
         </div>
       </div>
-      <button class="btn btn-primary btn-form-submit" type="submit">Submit for approval</button>
+      <button class="btn btn-primary btn-form-submit form-btn-style" type="submit">Submit for approval</button>
     </form>
     </div>
 </div>
@@ -91,19 +91,21 @@
     
     <!-- Modal -->
     <div class="modal fade " id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
         <div class="modal-content">
     
           <div class="modal-body">
           <div class="submit-checkmark">
-                  <i class="fa-solid fa-check"></i> 
+                  <i class="fa-solid fa-2x fa-check"></i> 
           </div>
     
             <div class="form-modal-text">
-            Thank you. Your form has been submitted.
+            <p class="modal-text-info__1">Thank you!</p> 
+            <p class="modal-text-info__2">Your form has been successfully submitted.  We have notified the corresponding user.</p>
             </div>
           </div>
     
+          <button class="btn btn-primary btn-modal form-btn-style" type="submit">OK</button>
         </div>
       </div>
     </div>
